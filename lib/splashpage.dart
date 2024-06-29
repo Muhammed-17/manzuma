@@ -38,10 +38,6 @@ void showStep() {
     setState(() {
       step1Visible = true;
     });
-    // Future.delayed(const Duration(seconds:3));
-    // setState(() {
-    //   step2Visible = true;
-    // });
     Timer(const Duration(milliseconds: 3000), () {
       setState(() {
         step2Visible = true;
@@ -157,8 +153,4 @@ void showStep() {
       ),
     );
   }
-}
-
-class HomePage {
-  const HomePage();
 }
