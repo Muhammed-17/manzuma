@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:manzumaalsaadi/splashpage.dart';
 
 void main() {
+  
   runApp(const MyApp());
 }
 
