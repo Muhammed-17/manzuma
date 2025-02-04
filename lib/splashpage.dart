@@ -34,9 +34,10 @@ void showStep() {
         step5Visible = true;
       });
     });
-    Future.delayed(const Duration(milliseconds:500));
-    setState(() {
+    Timer(const Duration(milliseconds: 500), () {
+      setState(() {
       step1Visible = true;
+      });
     });
     Timer(const Duration(milliseconds: 3000), () {
       setState(() {
@@ -100,7 +101,7 @@ void showStep() {
                                 isRepeatingAnimation: false,
                               ),
                 ),
-                 SizedBox(
+                SizedBox(
                   height: width*0.1,
                 ),
                 Visibility(
