@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453488299490",
+    "project_id": "manzuma-5ab94",
+    "storage_bucket": "manzuma-5ab94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453488299490:android:f70153dd99e7c6ace7fdbb",
+        "android_client_info": {
+          "package_name": "com.example.manzumaalsaadi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv-xPctxQWPqvt5WsSrbOZ5-lm7ekqEhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
